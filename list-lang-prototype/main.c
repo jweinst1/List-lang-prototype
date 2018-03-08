@@ -7,9 +7,14 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+#include "List.h"
+#include "ListPack.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    List* foo = List_new_empty(2);
+    ListPack_bool(foo, 1);
+    printf("type is %u\n", foo->data[0]);
+    free(foo);
     return 0;
 }
