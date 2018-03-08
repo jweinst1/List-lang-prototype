@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		66D1C60D2050B85B005D9F1C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C60C2050B85B005D9F1C /* main.c */; };
 		66D1C6142050B963005D9F1C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C6132050B963005D9F1C /* README.md */; };
+		66D1C6172050B9C1005D9F1C /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C6152050B9C1005D9F1C /* List.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		66D1C6092050B85B005D9F1C /* list-lang-prototype */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "list-lang-prototype"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D1C60C2050B85B005D9F1C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		66D1C6132050B963005D9F1C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		66D1C6152050B9C1005D9F1C /* List.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = List.c; sourceTree = "<group>"; };
+		66D1C6162050B9C1005D9F1C /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				66D1C60C2050B85B005D9F1C /* main.c */,
+				66D1C6152050B9C1005D9F1C /* List.c */,
+				66D1C6162050B9C1005D9F1C /* List.h */,
 			);
 			path = "list-lang-prototype";
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66D1C6142050B963005D9F1C /* README.md in Sources */,
+				66D1C6172050B9C1005D9F1C /* List.c in Sources */,
 				66D1C60D2050B85B005D9F1C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
