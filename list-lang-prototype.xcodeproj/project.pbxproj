@@ -11,6 +11,7 @@
 		66D1C6142050B963005D9F1C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C6132050B963005D9F1C /* README.md */; };
 		66D1C6172050B9C1005D9F1C /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C6152050B9C1005D9F1C /* List.c */; };
 		66D1C61A2050CB98005D9F1C /* ListPack.c in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C6182050CB98005D9F1C /* ListPack.c */; };
+		66D1C6202052EB7D005D9F1C /* Reaction.c in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C61E2052EB7D005D9F1C /* Reaction.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		66D1C6162050B9C1005D9F1C /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		66D1C6182050CB98005D9F1C /* ListPack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ListPack.c; sourceTree = "<group>"; };
 		66D1C6192050CB98005D9F1C /* ListPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPack.h; sourceTree = "<group>"; };
+		66D1C61E2052EB7D005D9F1C /* Reaction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Reaction.c; sourceTree = "<group>"; };
+		66D1C61F2052EB7D005D9F1C /* Reaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reaction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				66D1C6162050B9C1005D9F1C /* List.h */,
 				66D1C6182050CB98005D9F1C /* ListPack.c */,
 				66D1C6192050CB98005D9F1C /* ListPack.h */,
+				66D1C61E2052EB7D005D9F1C /* Reaction.c */,
+				66D1C61F2052EB7D005D9F1C /* Reaction.h */,
 			);
 			path = "list-lang-prototype";
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 				66D1C6142050B963005D9F1C /* README.md in Sources */,
 				66D1C6172050B9C1005D9F1C /* List.c in Sources */,
 				66D1C61A2050CB98005D9F1C /* ListPack.c in Sources */,
+				66D1C6202052EB7D005D9F1C /* Reaction.c in Sources */,
 				66D1C60D2050B85B005D9F1C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

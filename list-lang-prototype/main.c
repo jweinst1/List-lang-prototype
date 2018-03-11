@@ -12,9 +12,8 @@
 #include "ListPack.h"
 
 int main(int argc, const char * argv[]) {
-    List* foo = List_new_empty(2);
-    ListPack_bool(foo, 1);
-    printf("type is %u\n", foo->data[0]);
+    List* foo = ListPack_new("bbb", 1, 0, 1);
+    printf("bool is %u\n", foo->data[3]);
     free(foo);
     return 0;
 }
