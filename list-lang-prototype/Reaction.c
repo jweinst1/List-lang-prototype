@@ -7,3 +7,17 @@
 //
 
 #include "Reaction.h"
+
+RxList* RxList_new(int n)
+{
+    RxList* rxl = malloc(sizeof(RxList) + n);
+    rxl->size = n;
+    rxl->elems[0] = 0;
+    return rxl;
+}
+
+// Function responsible for reacting two lists.
+void Rx_React(RxList* target, RxList* reactor)
+{
+    
+}
